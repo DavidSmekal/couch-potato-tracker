@@ -169,7 +169,7 @@ class MainPage(QWidget):
         self.comboBox = QComboBox(self.addStockDialog)
         self.comboBox.move(230, 120)
         self.comboBox.resize(180, 30)
-        self.comboBox.addItems(["0%", "5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%",
+        self.comboBox.addItems(["5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%",
                                 "45%", "50%", "55%", "60%", "65%", "70%", "75%", "80%",
                                 "85%", "90%", "95%", "100%"])
 
@@ -194,12 +194,6 @@ class MainPage(QWidget):
         stock_value = self.stock.text()
         stock_amount_value = self.stockAmount.text()
         stock_desired_value = self.comboBox.currentText()
-
-        # can't set desired value to 0 (otherwise I can't do calculations!)
-        # todo: will need to show alert the user somehow that desired value can't be 0
-        if stock_desired_value == "0%":
-            print("stock is 0")
-            return 0
 
         # 5% and 100% don't work, so I have to do these manually
         if stock_desired_value == "5%":
