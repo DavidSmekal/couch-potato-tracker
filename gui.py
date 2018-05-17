@@ -1,7 +1,7 @@
 import sys
 import sqlite3
 import math
-from PyQt5.QtWidgets import QWidget, QDialog, QComboBox, QPushButton, QLabel, QLineEdit, QTableWidgetItem
+from PyQt5.QtWidgets import QWidget, QDialog, QComboBox, QPushButton, QLabel, QLineEdit, QTableWidgetItem, QCompleter
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtCore import pyqtSlot
 import database
@@ -144,6 +144,19 @@ class MainPage(QWidget):
         self.stock = QLineEdit(self.addStockDialog)
         self.stock.move(230, 20)
         self.stock.resize(180, 30)
+
+        # Stock autocompletion. List retrieved from http://investexcel.net/.
+        # List has been updated on September 2017
+        # Tickers used: Stock, ETF, and Index
+        # reads the file and stores the values in an array
+        file = open("stock_list.txt", "r")
+        lines = file.read().split('\n')
+        self.completer = QCompleter(lines)
+        # connecting the completer with the enter stock line
+        self.stock.setCompleter(self.completer)
+        self.completer.setCaseSensitivity(0)
+
+       # self.completer.caseSensitivity()
 
         # this is the second line to enter how much stock you have
         self.stockAmount = QLineEdit(self.addStockDialog)
