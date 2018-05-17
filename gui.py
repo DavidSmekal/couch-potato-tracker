@@ -231,8 +231,8 @@ class MainPage(QWidget):
         if money == 0:
             self.moneyLine2.setText("Total cost of portfolio (after rebalance): %.2f" % (0,))
         else:
-            money += database.current_money_function()
-            self.moneyLine2.setText("Total cost of portfolio (after rebalance): %.2f" % (money,))
+            temp_money = money + database.current_money_function()
+            self.moneyLine2.setText("Total cost of portfolio (after rebalance): %.2f" % (temp_money,))
         # we will need to send the money value to the database to get the calculations.
         # database.addingMoneyTotal(money)
         # to reload the database

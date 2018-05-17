@@ -64,6 +64,7 @@ def update_values(money):
             # finds how much percentage your portfolio is at
             currentPercentage = currentMoney / total
 
+
             # calculates the variation
             variation = currentPercentage / desired
 
