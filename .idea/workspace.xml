@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c720968-5686-4458-ab9d-f9c0a8d4aa6c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/stock_list.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gui.py" afterPath="$PROJECT_DIR$/gui.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,15 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gui.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="144" column="32" lean-forward="true" selection-start-line="144" selection-start-column="32" selection-end-line="144" selection-end-column="32" />
+            <state relative-caret-position="468">
+              <caret line="159" column="66" lean-forward="true" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-                <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+                <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+                <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
               </folding>
             </state>
           </provider>
@@ -79,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.qss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylesheet.qss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.qss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="73">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,8 +140,8 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/stock_list.txt" />
-        <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/stylesheet.qss" />
+        <option value="$PROJECT_DIR$/gui.py" />
       </list>
     </option>
   </component>
@@ -346,8 +344,8 @@
           <caret line="229" column="49" lean-forward="false" selection-start-line="229" selection-start-column="49" selection-end-line="229" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -405,8 +403,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -458,8 +456,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -504,8 +502,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -550,8 +548,8 @@
           <caret line="80" column="68" lean-forward="false" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="68" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -596,8 +594,8 @@
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -642,8 +640,8 @@
           <caret line="305" column="7" lean-forward="false" selection-start-line="305" selection-start-column="7" selection-end-line="305" selection-end-column="7" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -680,8 +678,8 @@
           <caret line="297" column="0" lean-forward="true" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -718,8 +716,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -798,8 +796,8 @@
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
           </folding>
         </state>
       </provider>
@@ -874,23 +872,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
+    <entry file="file://$PROJECT_DIR$/stylesheet.qss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="144" column="32" lean-forward="true" selection-start-line="144" selection-start-column="32" selection-end-line="144" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1526591833101" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
-            <marker date="1526591833101" expanded="true" signature="11633:11667" ph="SELECT stock... usersStock" />
-          </folding>
+        <state relative-caret-position="73">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.qss">
+    <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="159" column="66" lean-forward="true" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1526592054936" expanded="true" signature="4885:4909" ph="SELECT * FRO... usersStock" />
+            <marker date="1526592054936" expanded="true" signature="11677:11711" ph="SELECT stock... usersStock" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -146,6 +146,7 @@ class MainPage(QWidget):
         self.stock.resize(180, 30)
 
         # Stock autocompletion. List retrieved from http://investexcel.net/.
+        # The List is scraped from Yahoo, which works with my JSON requests from Yahoo
         # List has been updated on September 2017
         # Tickers used: Stock, ETF, and Index
         # reads the file and stores the values in an array
@@ -155,8 +156,6 @@ class MainPage(QWidget):
         # connecting the completer with the enter stock line
         self.stock.setCompleter(self.completer)
         self.completer.setCaseSensitivity(0)
-
-       # self.completer.caseSensitivity()
 
         # this is the second line to enter how much stock you have
         self.stockAmount = QLineEdit(self.addStockDialog)
