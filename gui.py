@@ -2,16 +2,17 @@ import sys
 import sqlite3
 import math
 from PyQt5.QtWidgets import QWidget, QDialog, QComboBox, QPushButton, QLabel, QLineEdit, QTableWidgetItem, QCompleter
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtCore import pyqtSlot
 import database
+import helperMethods
 
 
 class MainPage(QWidget):
 
     def __init__(self):
         super().__init__()
-        # self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
+       # self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         self.setGeometry(300, 200, 1250, 650)
         self.setObjectName("background")
 
@@ -122,6 +123,13 @@ class MainPage(QWidget):
                 if column == 1 or column == 5 or column == 6:
                     self.tableWidget.setItem(row, column,
                                              QtWidgets.QTableWidgetItem(database.decimal_to_percentage(data)))
+                    # changes the background color of 'variation'
+                    if column == 6:
+                        self.tableWidget.item(row, column).setBackground(helperMethods.decide_variation_color(data))
+                        # if the background is colored, change the text color to black
+                        # to see the number easier
+                        if not 0.98 <= data <= 1.02:
+                            self.tableWidget.item(row, column).setForeground(QtGui.QColor(0, 0, 0))
                 elif column == 4 or column == 8:
                     self.tableWidget.setItem(row, column, QtWidgets.QTableWidgetItem(str(math.ceil(data))))
                 else:

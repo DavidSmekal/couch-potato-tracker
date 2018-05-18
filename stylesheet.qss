@@ -48,7 +48,7 @@ QHeaderView {
     font: bold;
     color: blue;
     background-color: #3A3E46;
- border-radius: 5px;
+    border-radius: 5px;
 }
 
 QLabel {

@@ -48,7 +48,7 @@ def update_values(money):
         total += money
 
         response = requests.get("https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + stock_ticker)
-        print(response)
+
         # if stock doesn't exist in website, show popup
         if response.status_code == 404:
             errorPopup.show_error_pop_up(1)
