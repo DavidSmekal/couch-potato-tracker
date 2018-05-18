@@ -33,9 +33,9 @@ def update_values(money):
     new_result = result.fetchall()
 
     for a, b, c in new_result:
-        stockTicker = a
+        stock_ticker = a
         desired = b
-        currentShare = c
+        current_share = c
         # finds the total money in user's profile
         total = current_money_function()
 
@@ -47,47 +47,47 @@ def update_values(money):
         # if the user is adding money, it will add it to the total
         total += money
 
-        response = requests.get("https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + stockTicker)
+        response = requests.get("https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + stock_ticker)
         print(response)
         # if stock doesn't exist in website, show popup
         if response.status_code == 404:
             errorPopup.show_error_pop_up(1)
             print("error")
             # need to delete the stock ticker from the database now
-            delete_stock(stockTicker)
+            delete_stock(stock_ticker)
             return 0
 
         result = json.loads(response.content.decode('utf-8'))
-        sharePrice = result['quoteResponse']['result'][0]['regularMarketPrice']
+        share_price = result['quoteResponse']['result'][0]['regularMarketPrice']
 
         # finds how much money you currently have of the share
-        currentMoney = sharePrice * currentShare
+        current_money = share_price * current_share
 
         # need to set these values to 0 since the calculations can't be divided by 0
         if total == 0:
-            currentPercentage = 0
+            current_percentage = 0
             variation = 0
-            buySharesRoundDown = 0
+            buy_shares_round_down = 0
 
         else:
             # finds how much percentage your portfolio is at
-            currentPercentage = currentMoney / total
-
+            current_percentage = current_money / total
 
             # calculates the variation
-            variation = currentPercentage / desired
+            variation = current_percentage / desired
 
             # calculates how many shares the user should buy
             # this will be rounded down
-            buySharesRoundDown = math.floor(((total * desired) - currentMoney) / sharePrice)
+            buy_shares_round_down = math.floor(((total * desired) - current_money) / share_price)
 
         # how much it will cost to purchase the amount of shares
-        costToPurchase = buySharesRoundDown * sharePrice
+        cost_to_purchase = buy_shares_round_down * share_price
+
         conn.execute("UPDATE usersStock SET desired = ?, currentShare = ?, sharePrice = ?, "
                      "currentMoney = ?, currentPercentage = ?, variation = ?,buySharesRoundDown = ?,  "
                      "costToPurchase = ? WHERE stockTicker = ?; ",
-                     (desired, currentShare, sharePrice, currentMoney, currentPercentage,
-                      variation, buySharesRoundDown, costToPurchase, stockTicker,))
+                     (desired, current_share, share_price, current_money, current_percentage,
+                      variation, buy_shares_round_down, cost_to_purchase, stock_ticker,))
         conn.commit()
     print("Database has been updated")
 
@@ -100,20 +100,20 @@ def update_desired_value(stock, desired, amount):
 
 # this function will return the total money in user's portfolio
 def current_money_function():
-    sum = conn.execute("SELECT SUM(currentMoney) FROM usersStock")
+    current_sum = conn.execute("SELECT SUM(currentMoney) FROM usersStock")
     conn.commit()
-    newsum = sum.fetchone()
-    if newsum[0] is None:
+    new_sum = current_sum.fetchone()
+    if new_sum[0] is None:
         return 0
     else:
-        return newsum[0]
+        return new_sum[0]
 
 
 # this method will take in a decimal and return a string in percentage form
 def decimal_to_percentage(decimal):
     decimal = math.ceil(decimal * 100)
-    newString = str(decimal) + "%"
-    return newString
+    new_string = str(decimal) + "%"
+    return new_string
 
 
 # will delete a stock from the database
