@@ -2,6 +2,7 @@ import sqlite3
 import json
 import requests
 import math
+import errorPopup
 
 conn = sqlite3.connect('database.db')
 
@@ -45,11 +46,19 @@ def update_values(money):
 
         # if the user is adding money, it will add it to the total
         total += money
-        # gets the price of the share
+
         response = requests.get("https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + stockTicker)
+        print(response)
+        # if stock doesn't exist in website, show popup
+        if response.status_code == 404:
+            errorPopup.show_error_pop_up(1)
+            print("error")
+            # need to delete the stock ticker from the database now
+            delete_stock(stockTicker)
+            return 0
+
         result = json.loads(response.content.decode('utf-8'))
         sharePrice = result['quoteResponse']['result'][0]['regularMarketPrice']
-        print(sharePrice)
 
         # finds how much money you currently have of the share
         currentMoney = sharePrice * currentShare
