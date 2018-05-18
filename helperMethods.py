@@ -1,4 +1,5 @@
 from PyQt5 import QtGui
+import math
 
 # decides the color of the table cell depending on the
 # % of variation
@@ -16,4 +17,10 @@ def decide_variation_color(data):
     else:
         return QtGui.QColor(58, 62, 70)
 
+
+# this method will take in a decimal and return a string in percentage form
+def decimal_to_percentage(decimal):
+    decimal = math.ceil(decimal * 100)
+    new_string = str(decimal) + "%"
+    return new_string
 

@@ -122,7 +122,7 @@ class MainPage(QWidget):
                     data = 0
                 if column == 1 or column == 5 or column == 6:
                     self.tableWidget.setItem(row, column,
-                                             QtWidgets.QTableWidgetItem(database.decimal_to_percentage(data)))
+                                             QtWidgets.QTableWidgetItem(helperMethods.decimal_to_percentage(data)))
                     # changes the background color of 'variation'
                     if column == 6:
                         self.tableWidget.item(row, column).setBackground(helperMethods.decide_variation_color(data))

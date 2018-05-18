@@ -109,13 +109,6 @@ def current_money_function():
         return new_sum[0]
 
 
-# this method will take in a decimal and return a string in percentage form
-def decimal_to_percentage(decimal):
-    decimal = math.ceil(decimal * 100)
-    new_string = str(decimal) + "%"
-    return new_string
-
-
 # will delete a stock from the database
 def delete_stock(stock):
     stock = stock
