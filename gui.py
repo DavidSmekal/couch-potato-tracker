@@ -6,6 +6,7 @@ from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtCore import pyqtSlot
 import database
 import helperMethods
+import errorPopup
 
 
 class MainPage(QWidget):
@@ -206,14 +207,21 @@ class MainPage(QWidget):
     def clicked_add(self):
         # if value is empty, ignore the whole function and return 0
         if not self.stockAmount.text():
+            errorPopup.show_error_pop_up(2)
             return 0
         if not self.stock.text():
+            errorPopup.show_error_pop_up(3)
             return 0
 
         # these 2 values grab what is in the text boxes
         stock_value = self.stock.text()
         stock_amount_value = self.stockAmount.text()
         stock_desired_value = self.comboBox.currentText()
+
+        # shows an error if user enters a value less than 0
+        if int(stock_amount_value) <= -1:
+            errorPopup.show_error_pop_up(4)
+            return 0
 
         # 5% and 100% don't work, so I have to do these manually
         if stock_desired_value == "5%":
@@ -245,6 +253,7 @@ class MainPage(QWidget):
     def add_money(self):
         # if value is empty, ignore the whole function and return 0
         if not self.enterMoney.text():
+            errorPopup.show_error_pop_up(2)
             return 0
         money = float(self.enterMoney.text())
         # if the money entered is 0, we need to clear the text back to 0.
@@ -290,7 +299,7 @@ class MainPage(QWidget):
             print(i[0])
             self.comboBox2.addItem(i[0])
 
-            # this is the second line to enter how much stock you have
+        # this is the second line to enter how much stock you have
         self.stockAmount2 = QLineEdit(self.editStockDialog)
         self.stockAmount2.resize(180, 30)
         self.stockAmount2.move(230, 70)
@@ -309,7 +318,7 @@ class MainPage(QWidget):
         self.comboBox3 = QComboBox(self.editStockDialog)
         self.comboBox3.move(230, 120)
         self.comboBox3.resize(180, 30)
-        self.comboBox3.addItems(["0%", "5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%",
+        self.comboBox3.addItems(["5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%",
                                  "45%", "50%", "55%", "60%", "65%", "70%", "75%", "80%",
                                  "85%", "90%", "95%", "100%"])
 
@@ -335,6 +344,15 @@ class MainPage(QWidget):
         stock_value = self.comboBox2.currentText()
         stock_amount_value = self.stockAmount2.text()
         stock_desired_value = self.comboBox3.currentText()
+
+        if not stock_amount_value:
+            errorPopup.show_error_pop_up(2)
+            return 0
+
+        # shows an error if user enters a value less than 0
+        if int(stock_amount_value) <= -1:
+            errorPopup.show_error_pop_up(4)
+            return 0
 
         # 5% and 100% don't work, so I have to do these manually
         if stock_desired_value == "5%":

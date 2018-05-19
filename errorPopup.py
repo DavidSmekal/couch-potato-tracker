@@ -9,6 +9,12 @@ def show_error_pop_up(code):
 
     if code == 1:
         msg.setText("Stock doesn't exist")
+    elif code == 2:
+        msg.setText("You must enter an amount")
+    elif code == 3:
+        msg.setText("You must enter a stock")
+    elif code == 4:
+        msg.setText("Value cannot be less than 0")
 
     msg.setWindowTitle("Error")
     msg.setObjectName("background")
