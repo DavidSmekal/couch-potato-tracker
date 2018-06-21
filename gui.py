@@ -4,9 +4,11 @@ import math
 from PyQt5.QtWidgets import QWidget, QDialog, QComboBox, QPushButton, QLabel, QLineEdit, QTableWidgetItem, QCompleter
 from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtCore import pyqtSlot
+
 import database
 import helperMethods
 import errorPopup
+import plotCanvas
 
 
 class MainPage(QWidget):
@@ -14,7 +16,7 @@ class MainPage(QWidget):
     def __init__(self):
         super().__init__()
        # self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
-        self.setGeometry(300, 200, 1250, 650)
+        self.setGeometry(300, 200, 1250, 750)
         self.setObjectName("background")
 
         # loads up the stylesheet
@@ -106,7 +108,16 @@ class MainPage(QWidget):
 
         self.load_data_from_database()
 
+        self.show_graph()
         self.show()
+
+    # this function creates the pie chart graph
+    def show_graph(self):
+
+        # show the graph on the GUI
+
+        m = plotCanvas.PlotCanvas(self, width=3, height=3)
+        m.move(500, 440)
 
     # this function populates the table from values from the database
     @pyqtSlot()
