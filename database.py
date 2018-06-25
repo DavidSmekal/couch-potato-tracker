@@ -96,6 +96,7 @@ def update_values(money):
 def update_desired_value(stock, desired, amount):
     conn.execute("UPDATE usersStock SET desired = ?, currentShare = ? WHERE stockTicker = ?", (desired, amount, stock))
     conn.commit()
+    update_values(0)
 
 
 # this function will return the total money in user's portfolio

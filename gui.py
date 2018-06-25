@@ -106,7 +106,7 @@ class MainPage(QWidget):
         header.setSectionResizeMode(7, QtWidgets.QHeaderView.Stretch)
         header.setSectionResizeMode(8, QtWidgets.QHeaderView.Stretch)
 
-        self.load_data_from_database()
+        self.load_data_from_database(0)
 
         self.show_graph()
         self.show()
@@ -121,7 +121,8 @@ class MainPage(QWidget):
 
     # this function populates the table from values from the database
     @pyqtSlot()
-    def load_data_from_database(self):
+    def load_data_from_database(self, money):
+        database.update_values(money)
         conn = sqlite3.connect('database.db')
         query = "SELECT * FROM usersStock"
         result = conn.execute(query)
@@ -252,7 +253,7 @@ class MainPage(QWidget):
         # this will clear the text when the user presses okay
         self.stock.setText("")
         self.stockAmount.setText("")
-        self.load_data_from_database()
+        self.load_data_from_database(0)
 
         # updating total value
         self.update_money_values()
@@ -276,9 +277,9 @@ class MainPage(QWidget):
         # we will need to send the money value to the database to get the calculations.
         # database.addingMoneyTotal(money)
         # to reload the database
-        database.update_values(money)
+     #   database.update_values(money)
         # need to refresh the database now
-        self.load_data_from_database()
+        self.load_data_from_database(money)
 
         return money
 
@@ -380,15 +381,15 @@ class MainPage(QWidget):
         # this will clear the text when the user presses edit
         self.stockAmount2.setText("")
 
-        database.update_values(0)
-        self.load_data_from_database()
-        # self.clicked.connect(database.update_values())
+    #    database.update_values(0)
+        self.load_data_from_database(0)
+        self.update_money_values()
 
     @pyqtSlot()
     def delete_stock(self):
         stock_value = self.comboBox2.currentText()
         database.delete_stock(stock_value)
-        self.load_data_from_database()
+        self.load_data_from_database(0)
         self.update_money_values()
 
     # this function will update the total money you have (on the main screen on the top)
@@ -406,6 +407,5 @@ if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     ex = MainPage()
     exit = app.exec_()
-    database.update_values(0)
     print("Application closed, and 'money' is set to 0")
     sys.exit(exit)
