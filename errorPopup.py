@@ -15,6 +15,8 @@ def show_error_pop_up(code):
         msg.setText("You must enter a stock")
     elif code == 4:
         msg.setText("Value cannot be less than 0")
+    elif code == 5:
+        msg.setText("Value must only contain numbers")
 
     msg.setWindowTitle("Error")
     msg.setObjectName("background")

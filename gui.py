@@ -223,6 +223,8 @@ class MainPage(QWidget):
         if not self.stockAmount.text():
             errorPopup.show_error_pop_up(2)
             return 0
+
+        # if stock hasn't been entered, show error
         if not self.stock.text():
             errorPopup.show_error_pop_up(3)
             return 0
@@ -231,6 +233,11 @@ class MainPage(QWidget):
         stock_value = self.stock.text()
         stock_amount_value = self.stockAmount.text()
         stock_desired_value = self.comboBox.currentText()
+
+        # shows error if user didn't enter in only numbers
+        if not stock_amount_value.isnumeric():
+            errorPopup.show_error_pop_up(5)
+            return 0
 
         # shows an error if user enters a value less than 0
         if int(stock_amount_value) <= -1:
@@ -269,6 +276,12 @@ class MainPage(QWidget):
         if not self.enterMoney.text():
             errorPopup.show_error_pop_up(2)
             return 0
+
+        # if user enters anything other than numbers, show error
+        if not self.enterMoney.text().isnumeric():
+            errorPopup.show_error_pop_up(5)
+            return 0
+
         money = float(self.enterMoney.text())
         # if the money entered is 0, we need to clear the text back to 0.
         if money == 0:
@@ -363,10 +376,17 @@ class MainPage(QWidget):
             errorPopup.show_error_pop_up(2)
             return 0
 
+        # shows error if user didn't enter in only numbers
+        if not stock_amount_value.isnumeric():
+            errorPopup.show_error_pop_up(5)
+            return 0
+
         # shows an error if user enters a value less than 0
         if int(stock_amount_value) <= -1:
             errorPopup.show_error_pop_up(4)
             return 0
+
+
 
         # 5% and 100% don't work, so I have to do these manually
         if stock_desired_value == "5%":
