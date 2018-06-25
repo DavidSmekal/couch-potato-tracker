@@ -118,38 +118,3 @@ def delete_stock(stock):
     update_values(0)
     print("Deleted")
 
-
-# this function is a backup. This will be used to update the specific values.
-# I will have to use this later on!
-'''
-# this function will update all the values, and do all the math
-def update_values(stockTicker, desired, currentShare):
-    # finds the total money in user's profile
-    total = current_money_function()
-    # gets the price of the share
-    response = requests.get("https://query1.finance.yahoo.com/v7/finance/quote?symbols=" + stockTicker)
-    result = json.loads(response.content.decode('utf-8'))
-    sharePrice = result['quoteResponse']['result'][0]['regularMarketPrice']
-
-    # finds how much money you currently have of the share
-    currentMoney = sharePrice * currentShare
-
-    # finds how much percentage your portfolio is at
-    currentPercentage = currentMoney / total
-
-    # calculates the variation
-    variation = currentPercentage / desired
-
-    # calculates how many shares the user should buy
-    # this will be rounded down
-    buySharesRoundDown = math.floor(((total * desired) - currentMoney)/sharePrice)
-
-    # how much it will cost to purchase the amount of shares
-    costToPurchase = buySharesRoundDown * sharePrice
-    conn.execute("UPDATE usersStock SET desired = ?, currentShare = ?, sharePrice = ?, "
-                 "currentMoney = ?, currentPercentage = ?, variation = ?,buySharesRoundDown = ?,  "
-                 "costToPurchase = ? WHERE stockTicker = ?; ",
-            (desired, currentShare, sharePrice, currentMoney, currentPercentage,
-             variation, buySharesRoundDown, costToPurchase, stockTicker,))
-    conn.commit()
-'''

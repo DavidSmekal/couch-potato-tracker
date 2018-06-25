@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c720968-5686-4458-ab9d-f9c0a8d4aa6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/errorPopup.py" beforeDir="false" afterPath="$PROJECT_DIR$/errorPopup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="294" column="38" lean-forward="true" selection-start-line="294" selection-start-column="38" selection-end-line="294" selection-end-column="38" />
+            <state relative-caret-position="-8756">
               <folding>
                 <marker date="1529970333428" expanded="true" signature="5218:5242" ph="SELECT * FRO... usersStock" />
                 <marker date="1529970333428" expanded="true" signature="13437:13471" ph="SELECT stock... usersStock" />
@@ -59,29 +57,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-545">
-              <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+            <state relative-caret-position="555">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-                <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-                <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+                <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+                <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
               </folding>
             </state>
           </provider>
@@ -153,10 +150,10 @@
         <option value="$PROJECT_DIR$/stock_list.txt" />
         <option value="$PROJECT_DIR$/stylesheet.qss" />
         <option value="$PROJECT_DIR$/plotCanvas.py" />
-        <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/helperMethods.py" />
         <option value="$PROJECT_DIR$/errorPopup.py" />
         <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/database.py" />
       </list>
     </option>
   </component>
@@ -387,22 +384,21 @@
           <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -430,22 +426,21 @@
           <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -473,22 +468,21 @@
           <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -516,22 +510,21 @@
           <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -560,22 +553,21 @@
           <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -604,22 +596,21 @@
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -648,22 +639,21 @@
           <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -685,22 +675,21 @@
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -728,22 +717,21 @@
           <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -762,22 +750,21 @@
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
@@ -908,6 +895,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8756">
+          <folding>
+            <marker date="1529970333428" expanded="true" signature="5218:5242" ph="SELECT * FRO... usersStock" />
+            <marker date="1529970333428" expanded="true" signature="13437:13471" ph="SELECT stock... usersStock" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/errorPopup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -917,37 +914,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+        <state relative-caret-position="555">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1529963182227" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
-            <marker date="1529963182227" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
-            <marker date="1529963182227" expanded="true" signature="5535:5764" ph="UPDATE usersStock... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="294" column="38" lean-forward="true" selection-start-line="294" selection-start-column="38" selection-end-line="294" selection-end-column="38" />
-          <folding>
-            <marker date="1529970333428" expanded="true" signature="5218:5242" ph="SELECT * FRO... usersStock" />
-            <marker date="1529970333428" expanded="true" signature="13437:13471" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:198" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:271" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:309" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:411" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="159:412" ph="CREATE TABLE... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="487:564" ph="INSERT INTO usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="1077:1134" ph="SELECT stock... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="3083:3151" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3083:3320" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3692:3765" ph="UPDATE usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="3961:4001" ph="SELECT SUM(c... usersStock" />
+            <marker date="1529970640802" expanded="true" signature="4242:4284" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4285" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4286" ph="DELETE FROM usersStock... " />
+            <marker date="1529970640802" expanded="true" signature="4242:4297" ph="DELETE FROM usersStock... " />
           </folding>
         </state>
       </provider>
