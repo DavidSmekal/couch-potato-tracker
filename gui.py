@@ -144,7 +144,9 @@ class MainPage(QWidget):
                         if not 0.98 <= data <= 1.02:
                             self.tableWidget.item(row, column).setForeground(QtGui.QColor(0, 0, 0))
                 elif column == 4 or column == 8:
-                    self.tableWidget.setItem(row, column, QtWidgets.QTableWidgetItem(str(math.ceil(data))))
+                    self.tableWidget.setItem(row, column, QtWidgets.QTableWidgetItem(helperMethods.int_to_currency(math.ceil(data))))
+                elif column == 3 or column == 7:
+                    self.tableWidget.setItem(row, column, QtWidgets.QTableWidgetItem(helperMethods.int_to_currency(data)))
                 else:
                     self.tableWidget.setItem(row, column, QtWidgets.QTableWidgetItem(str(data)))
         conn.close()

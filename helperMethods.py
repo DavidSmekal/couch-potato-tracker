@@ -24,3 +24,11 @@ def decimal_to_percentage(decimal):
     new_string = str(decimal) + "%"
     return new_string
 
+# this method converts a number to a $$$ number.
+# Method will add a comma, and a "$" sign in front of the new number
+def int_to_currency(amount):
+    if amount >= 0:
+        return '${:,.2f}'.format(amount)
+    else:
+        # if the number is negative:
+        return '-${:,.2f}'.format(-amount)
